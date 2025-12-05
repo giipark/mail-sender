@@ -1,0 +1,8 @@
+mail:
+  async:
+    core-pool-size: 10
+    max-pool-size: 50
+    queue-capacity: 1000
+    thread-name-prefix: "MAIL-ASYNC-"
+  dispatch:
+    limit: 100
